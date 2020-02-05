@@ -62,7 +62,7 @@ module.exports = ({ relativeToRoot, config }) => {
         class="site-bookmark-li unit-0"
         data-name="${addPinyin(name).toLowerCase()}"
       >
-        <a href="${url}" class="site-bookmark-a flex-middle" tabindex="9">
+        <a target="_blank" href="${url}" class="site-bookmark-a flex-middle" tabindex="9">
           ${renderFavicon(favicon)}
           <span>${name}</span>
         </a>
@@ -74,14 +74,14 @@ module.exports = ({ relativeToRoot, config }) => {
     if (!favicon) {
       return '';
     }
-    return `<img class="site-bookmark-img" src="${relativeToRoot}/img/${favicon}" height="16" width="16" />`;
+    return `<img class="site-bookmark-img" src="https://cdn.staticaly.com/img/${favicon}" height="16" width="16" />`;
   }
 
   function renderFooter() {
     return `
       <footer class="text-center top-gap-big text-muted text-small">
         <hr/>
-        <p>Like this page? <a class="text-muted" href="https://github.com/xcatliu/123">Fork me</a> to create your own!</p>
+        <p>This navigation is built with <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu/123</a>.</p>
       </footer>
     `;
   }

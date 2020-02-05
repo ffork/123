@@ -1,179 +1,116 @@
 src_dir: src
 public_dir: docs
 
-title: xcatliu's personal front page
+title: Huangxin's Daily Navigation
 
 bookmarks:
-  - name: Inbox
-    url: https://inbox.google.com/
-    favicon: inbox.png
-  - name: V2EX
-    url: https://v2ex.com/
-    favicon: v2ex.png
   - name: GitHub
-    url: https://github.com/xcatliu
-    favicon: github.ico
+    url: https://github.com
+    favicon: image.flaticon.com/icons/svg/2111/2111432.svg
+  - name: Outlook
+    url: https://outlook.com
+    favicon: gist.githubusercontent.com/hifocus/651543be58e1842641502c28c44370e3/raw/e20e002aa701f85be1e01b21932309cfa65fa3a5/icons8-microsoft-outlook-2019.svg
+  - name: Office 365
+    url: https://office.com
+    favicon: gist.githubusercontent.com/hifocus/dfa609609226c4c758b0b5d835d1fe5a/raw/f43329eaf0eabde44ad4898bbfe06a2bc0fb571d/office.svg
+  - name: Gmail
+    url: https://gmail.com
+    favicon: image.flaticon.com/icons/svg/281/281769.svg
+  - name: YouTube
+    url: https://youtube.com
+    favicon: image.flaticon.com/icons/svg/1384/1384060.svg
 
-  - category: 技术资讯
-  - name: Hacker News
-    url: https://news.ycombinator.com/
-    favicon: hacker-news.ico
-  - name: Echo JS
-    url: http://www.echojs.com/
-    favicon: echo-js.ico
-  - name: 掘金
-    url: https://juejin.im/
-    favicon: juejin.ico
-  - name: 开发者头条
-    url: https://toutiao.io/
-    favicon: toutiao.ico
-  - name: GitHub Trending
-    url: https://github.com/trending
-    favicon: github.ico
-  - name: 干货集中营
-    url: http://gank.io/
-  - name: Product Hunt
-    url: https://www.producthunt.com/
-    favicon: product-hunt.ico
-  - name: reddit
-    url: https://www.reddit.com/
-    favicon: reddit.ico
-  - name: 前端周刊
-    url: http://www.feweekly.com/
-    favicon: feweekly.ico
-  - name: Startup News
-    url: http://news.dbanotes.net/
-    favicon: startup-news.ico
+  - category: Connectivity Testing
+  - name: IPIP Ping
+    url: https://tools.ipip.net/ping.php
+    favicon: i.imgur.com/xAvhqHY.png
+  - name: IPIP Traceroute
+    url: https://tools.ipip.net/traceroute.php
+    favicon: i.imgur.com/xAvhqHY.png
+  - name: IPIP HTTP Head
+    url: https://tools.ipip.net/httphead.php
+    favicon: i.imgur.com/xAvhqHY.png
+  - name: Chinaz Ping
+    url: https://ping.chinaz.com
+    favicon: i.imgur.com/ZCAmN3H.png
+  - name: 17ce CDN Preload
+    url: https://www.17ce.com
+    favicon: i.imgur.com/Q35M5zG.png
+  - name: CDNPerf Latency Benchmark
+    url: https://www.cdnperf.com/tools/cdn-latency-benchmark
+    favicon: www.cdnperf.com/img/icon/apple-touch-icon.png
+  - name: DNSPerf DNS Speed Benchmark
+    url: https://www.dnsperf.com/dns-speed-benchmark/
+    favicon: www.dnsperf.com/img/icons/apple-touch-icon.png
+  - name: DNSMap
+    url: https://dnsmap.io
+    favicon: dnsmap.io/icons/apple-touch-icon.png
+  - name: G Suite Toolbox
+    url: https://toolbox.googleapps.com/apps/main/
+    favicon: i.imgur.com/QmWT75I.png
+  - name: HTTP Status Code Checker
+    url: https://httpstatus.io
+    favicon: httpstatus.io/images/favicon.png
 
-  - category: 技术社区
-  - name: CNode
-    url: https://cnodejs.org/
-    favicon: cnode.png
-  - name: SegmentFault
-    url: https://segmentfault.com/
-    favicon: segmentfault.ico
-  - name: 黑客派
-    url: https://hacpai.com/
-    favicon: hacpai.png
-  - name: 光谷社区
-    url: http://www.guanggoo.com/
-    favicon: guanggoo.ico
-  - name: Ruby China
-    url: https://ruby-china.org/
-    favicon: ruby-china.png
+  - category: Web Development Related
+  - name: IP.SB Lookup
+    url: https://ip.sb
+    favicon: i.imgur.com/9YJUCNK.png
+  - name: IP.SB Whois
+    url: https://ip.sb/whois
+    favicon: i.imgur.com/9YJUCNK.png
+  - name: CIDR & IPv4 Conversion
+    url: https://www.ipaddressguide.com/cidr
+    favicon: www.ipaddressguide.com/apple-touch-icon.png
+  - name: Source Code Beautifier
+    url: https://ctrlq.org/beautifier/
+    favicon: i.imgur.com/gr9Skwp.png
+  - name: HTML Minifier
+    url: https://www.willpeavy.com/tools/minifier/
+    favicon: i.imgur.com/Zr8YnqV.png
 
-  - category: 社交网络
-  - name: 知乎
-    url: https://www.zhihu.com/
-    favicon: zhihu.ico
-  - name: Twitter
-    url: https://twitter.com/
-    favicon: twitter.ico
-  - name: 微博
-    url: http://weibo.com/xcatliu/home
-    favicon: weibo.ico
-  - name: 微信网页版
-    url: https://wx.qq.com/
-    favicon: wechat.ico
-  
-  - category: 工具
+  - category: Sandboxes and Pastebins
+  - name: CodeSandbox
+    url: https://codesandbox.io/s/
+    favicon: image.flaticon.com/user_icons/19089/19089794/1580931599914.svg
   - name: CodePen
     url: https://codepen.io/pen/
-    favicon: codepen.ico
-  - name: Unicode 字符百科
-    url: https://unicode-table.com/cn/
-    favicon: unicode.png
-  - name: Online converter
-    url: http://image.online-convert.com/convert-to-png
-    favicon: online-converter.png
-  - name: HSL Color Picker
-    url: http://hslpicker.com/
-    favicon: hsl-color-picker.png
-  - name: favicon.ico Generator
-    url: http://www.favicon.cc/
-    favicon: favicon-generator.ico
-  - name: Online Photo Editor
-    url: https://pixlr.com/editor/
-    favicon: online-photo-editor.png
-  - name: ASCIIFlow - 字符图
-    url: http://asciiflow.com/
-    favicon: asciiflow.png
-  - name: SVG-edit
-    url: https://github.com/SVG-Edit/svgedit
-    favicon: svg-edit.png
-  - name: Painter - 画图板
-    url: http://painter.crick.wang/
-  - name: Sketchpad - 画图板
-    url: https://sketch.io/sketchpad/?lang=zh
-    favicon: sketchpad.png
-  - name: 多个地点 ping 服务器
-    url: http://ping.chinaz.com/
-  - name: Unsplash It - 随机图片服务
-    url: https://unsplash.it/
-    favicon: unsplash-it.ico
-  - name: UZER.ME - 在线 PS
-    url: https://uzer.me/
-    favicon: uzer-me.ico
-  - name: nodei.co - npm 状态图
-    url: https://nodei.co/
-    favicon: npm.png
-  - name: Mobile-Friendly Test
-    url: https://search.google.com/search-console/mobile-friendly
-    favicon: mobile-friendly-test.png
-  - name: RegExr
-    url: http://regexr.com/
-    favicon: regexr.ico
-  - name: 在线屏幕测试
-    url: http://pingmu.zh-ang.com/
-  - name: 域名商价格对比
-    favicon: domcomp.png
-    url: https://www.domcomp.com/
-  - name: TinyPNG
-    favicon: tinypng.png
-    url: https://tinypng.com/
+    favicon: image.flaticon.com/icons/svg/2111/2111501.svg
+  - name: JSFiddle
+    url: https://jsfiddle.net
+    favicon: image.flaticon.com/user_icons/19089/19089794/1580931146119.svg
+  - name: PlayCode
+    url: https://playcode.io
+    favicon: playcode.io/static/img/favicons/192x192.png
+  - name: Laravel Pastebin
+    url: https://paste.laravel.io
+    favicon: paste.laravel.io/images/favicons/apple-touch-icon.png
+  - name: PasteBin.com
+    url: https://pastebin.com
+    favicon: pastebin.com/i/pastebin_logo_side_outline.png
+  - name: Ubuntu Pastebin
+    url: https://paste.ubuntu.com
+    favicon: image.flaticon.com/user_icons/19089/19089794/1580932078171.svg
+  - name: CentOS Pastebin
+    url: https://pastebin.centos.org
+    favicon: image.flaticon.com/user_icons/19089/19089794/1580932310027.svg
+  - name: GitHub Gist
+    url: https://gist.github.com
+    favicon: image.flaticon.com/icons/svg/2111/2111432.svg
+  - name: Paste.to
+    url: https://paste.to
+    favicon: paste.to/favicon.png
 
-  - category: 博客
-  - name: Xcat Liu's Blog
-    url: http://blog.xcatliu.com/
-    favicon: xcatliu.ico
-  - name: Matrix67
-    url: http://www.matrix67.com/blog/
-  - name: 王垠 - 当然我在扯淡
-    url: http://www.yinwang.org/
-    favicon: yinwang.jpg
-  - name: 水八口记 - 在日本工作的博客爱好者
-    url: https://blog.shuiba.co/archive
-    favicon: shuibaco.ico
-  - name: 卜卜口 - 可能是世界最快博客
-    url: http://mouto.org/#!home
-    favicon: mouto.jpg
-  
-  - category: 文章收藏
-  - name: WebCore Rendering - 深入理解 css
-    url: https://webkit.org/blog/114/webcore-rendering-i-the-basics/
-  - name: 图说设计模式
-    url: https://design-patterns.readthedocs.io/zh_CN/latest/index.html
-
-  - category: 网站管理
-  - name: Name.com
-    url: https://www.name.com/account/domain
-    favicon: name.png
-  - name: Google Analytics
-    url: https://analytics.google.com/analytics/web/
-    favicon: google-analytics.png
-
-  - category: 其他导航站
-  - name: 创造狮
-    url: http://chuangzaoshi.com/
-    favicon: chuangzaoshi.png
-
-  - category: 未分类
-  - name: Avatars.io - 获取社交网站上的头像
-    url: https://www.avatars.io/
-  - name: HTML5 Demos and Examples
-    url: http://html5demos.com/
-  - name: Gauges - Real Time Website Analytics
-    url: http://get.gaug.es/
-    favicon: gauges.png
-
-
+  - category: Colour Pickers
+  - name: Flat UI Colors
+    url: https://flatuicolors.com
+    favicon: flatuicolors.com/static/favicon.ico
+  - name: Coolors
+    url: https://coolors.co/app
+    favicon: coolors.co/assets/images/favicon.png
+  - name: Material Deisgn Colors
+    url: https://www.materialui.co/colors
+    favicon: www.materialui.co/img/favicon.gif
+  - name: Brand Colors
+    url: https://brandcolors.net
+    favicon: brandcolors.net/assets/img/logo.png
