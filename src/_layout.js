@@ -23,6 +23,7 @@ module.exports = ({ relativeToRoot, config }) => {
       <body>
         <div class="flex-center">
           <div class="container">
+          <img src="https://i.imgur.com/tsxNKDq.png">
             ${renderSearch()}
             ${renderBookmarks()}
             ${renderFooter()}
