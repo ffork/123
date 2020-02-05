@@ -675,3 +675,18 @@ a.text-danger {
 
 .text-small {
   font-size: 85%; }
+
+.top-banner {
+  width: 45%;
+  height: auto;
+  margin-top: 2%;
+}
+
+@media all and (max-width: 800px) {
+  .top-banner {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 7.5px;
+  }
+}

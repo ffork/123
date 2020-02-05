@@ -16,14 +16,14 @@ module.exports = ({ relativeToRoot, config }) => {
         
         <title>${config.title}</title>
 
-        <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="https://cdn.staticaly.com/img/i.imgur.com/P7EjQtx.png"/>
         <link rel="stylesheet" href="${relativeToRoot}/css/mobi.css/mobi.min.css" />
         <link rel="stylesheet" href="${relativeToRoot}/css/site.css" />
       </head>
       <body>
         <div class="flex-center">
           <div class="container">
-          <img src="https://i.imgur.com/tsxNKDq.png">
+          <img class="top-banner" src="https://cdn.staticaly.com/img/i.imgur.com/Cf14rzA.png">
             ${renderSearch()}
             ${renderBookmarks()}
             ${renderFooter()}
@@ -82,7 +82,7 @@ module.exports = ({ relativeToRoot, config }) => {
     return `
       <footer class="text-center top-gap-big text-muted text-small">
         <hr/>
-        <p>This navigation is built with <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu/123</a>.</p>
+        <p>This navigation is built with <a class="text-muted" href="https://github.com/xcatliu/123">xcatliu/123</a> | Optimised for Oversea Network Environments Only</p>
       </footer>
     `;
   }
